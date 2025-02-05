@@ -1,0 +1,93 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading styles */
+h2, h3 {
+    color: #2c3e50;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Ordered list styles */
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Unordered list styles */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Description list styles */
+dl dd {
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a242f;
+}
+
+/* Table styling */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
